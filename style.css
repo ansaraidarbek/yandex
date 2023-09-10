@@ -22,17 +22,25 @@ html{
     font-size: 0.9938vh;
 }
 
+
+
 body{
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+  
 .back{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    min-height: 100vh;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), linear-gradient(90deg, rgba(255, 92, 77, 0.22) 0%, rgba(235, 70, 159, 0.22) 25%, rgba(131, 65, 239, 0.22) 72%, rgba(63, 104, 249, 0.22) 100%);
 }
 
